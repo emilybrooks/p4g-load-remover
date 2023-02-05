@@ -15,7 +15,7 @@ state("P4G", "Legacy Steam")
 
 init
 {
-	switch (modules.First().ModuleMemorySize)
+	switch (game.MainModule.ModuleMemorySize)
 	{	
 		case 913334272:
 		case 884142080: 
